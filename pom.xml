@@ -22,6 +22,8 @@
     <micronaut.test.resources.enabled>true</micronaut.test.resources.enabled>
     <micronaut.data.version>3.10.0</micronaut.data.version>
     <exec.mainClass>com.ayush.learnmicronaut.Application</exec.mainClass>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
   </properties>
 
   <repositories>
@@ -148,6 +150,8 @@
           </compilerArgs>
         </configuration>
       </plugin>
+
+
     </plugins>
   </build>
 

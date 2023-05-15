@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+  micronautapp:
+    image: micronaut-app
+    container_name: micronautapp
+    restart: always
+    network_mode: host
+    ports: 
+      - 8080:8080
+  
+
