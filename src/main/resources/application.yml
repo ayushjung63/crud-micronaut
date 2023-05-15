@@ -1,0 +1,21 @@
+micronaut:
+  application:
+    name: micronotDemo
+datasources:
+  default:
+    driver-class-name: org.postgresql.Driver
+    db-type: postgres
+    dialect: POSTGRES
+    jdbc-url: jdbc:postgresql://localhost:5432/test_db
+    username: postgres
+    password: postgres
+netty:
+  default:
+    allocator:
+      max-order: 3
+jpa:
+  default:
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto: update
